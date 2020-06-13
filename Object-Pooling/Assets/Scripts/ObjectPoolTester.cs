@@ -1,5 +1,8 @@
-﻿using System.Collections.Generic;
+﻿//Created by William Pyle 2020 http://www.wpyle.com
+
+using System.Collections.Generic;
 using UnityEngine;
+using WPyle.ObjectPooling;
 
 public class ObjectPoolTester : MonoBehaviour
 {
