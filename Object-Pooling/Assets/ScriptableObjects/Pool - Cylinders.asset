@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429c68e0da17703439e1512663317679, type: 3}
+  m_Name: Pool - Cylinders
+  m_EditorClassIdentifier: 
+  ID: Cylinders
+  poolSize: 50
+  gameobjects:
+  - {fileID: 7487909831293970363, guid: 4f42293a32cfaf94fb53b51c252825f8, type: 3}
+  - {fileID: 4580389814553797669, guid: 22290021238af0144957c716802e7483, type: 3}
+  - {fileID: 399560960282891327, guid: b94824d5f4fdf3f45b579876f00fc59e, type: 3}
+  - {fileID: 6017728545688434429, guid: a303445e28aa97a4ab0321a084a9f215, type: 3}
+  - {fileID: 7544343054737375120, guid: 206d497a0e4d1d2428a315b84dddb831, type: 3}
+  isExpandable: 0
+  maxPoolSize: 100

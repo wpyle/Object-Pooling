@@ -10,12 +10,18 @@ public class ObjectPoolTester : MonoBehaviour
     public List<GameObject> stuffList;
 
     [EditorButton("Get Object", green: true)]
-    private void RequestObj() => stuffList.Add(PoolManager.Instance.CheckoutItem(poolKey));
+    private void RequestObj()
+    {
+        var obj = PoolManager.Instance.CheckoutItem(poolKey);
+        stuffList.Add(obj);
+        obj.transform.position = new Vector3(Random.Range(0,100),Random.Range(0,100),Random.Range(0,100));
+        obj.SetActive(true);
+    }
 
     [EditorButton("Return Object", red: true)]
     private void ReturnRandObj()
     {
-        GameObject obj = stuffList[Random.Range(0, stuffList.Count)];
+        var obj = stuffList[Random.Range(0, stuffList.Count)];
         stuffList.Remove(obj);
         PoolManager.Instance.ReturnItem(obj);
     }

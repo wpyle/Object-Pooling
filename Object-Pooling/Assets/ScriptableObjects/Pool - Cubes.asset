@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429c68e0da17703439e1512663317679, type: 3}
+  m_Name: Pool - Cubes
+  m_EditorClassIdentifier: 
+  ID: Cubes
+  poolSize: 5
+  gameobjects:
+  - {fileID: 737921801454144802, guid: cae33e832be901242b14494127de40b2, type: 3}
+  - {fileID: 2059846581082746287, guid: 885215e66a91fc14eb5a65b2d6d7b91c, type: 3}
+  - {fileID: 3991277906056013953, guid: e6d6a54d90477d24fb9721fefdb541e5, type: 3}
+  - {fileID: 1297400354389782826, guid: 6faa5f093514fb64fa56960105f57a8f, type: 3}
+  - {fileID: 881787584594114266, guid: fe3021f9516025f4282e8196f8668d55, type: 3}
+  isExpandable: 1
+  maxPoolSize: 100
